@@ -1,11 +1,11 @@
-# batalhanaval
+Posicionamento de Navios – Nível Novato
 Este repositório demonstra como posicionar dois navios em um tabuleiro de Batalha Naval usando matrizes 2D em C. Um navio será colocado horizontalmente e outro verticalmente. Ao final, exibimos no console:
 
 As coordenadas de cada parte dos navios
 
-A visualização completa do tabuleiro
+A visualização completa do tabuleiro.
 
-Objetivos
+Objetivos:
 Posicionar um navio horizontal de tamanho configurável
 
 Posicionar um navio vertical de tamanho configurável
@@ -16,21 +16,21 @@ Exibir, via printf, as coordenadas de cada parte dos navios
 
 Mostrar o tabuleiro completo com 0 (vazio) e 1 (navio)
 
-Requisitos Funcionais
+Requisitos Funcionais:
 Valores de posição e tamanho definidos por variáveis no código
 
 Uso de matrizes para armazenar o estado do tabuleiro
 
 Exibição clara das coordenadas e do tabuleiro
 
-Requisitos Não Funcionais
+Requisitos Não Funcionais:
 Código bem documentado para fácil manutenção
 
 Organização lógica em seções comentadas
 
 Execução eficiente em tabuleiros de até 10×10 células
 
-Como Compilar e Executar
+Como Compilar e Executar:
 bash
 gcc main.c -o batalha_naval
 ./batalha_naval
@@ -90,12 +90,12 @@ int main(void) {
 
     return 0;
 }
-Explicação do Código
+Explicação do Código:
 Inicialização A matriz board recebe zeros em todas as posições.
 
 Definição dos Navios Variáveis para linha, coluna e comprimento permitem alterar facilmente posição e tamanho.
 
-Posicionamento
+Posicionamento:
 
 Laço horizontal ajusta colunas mantendo a mesma linha.
 
@@ -105,7 +105,7 @@ Exibição de Coordenadas Percorremos somente as células ocupadas por cada navi
 
 Visualização do Tabuleiro Exibe toda a matriz, deixando evidente onde cada navio foi posicionado.
 
-Próximos Passos
+Próximos Passos:
 Permitir entrada de coordenadas pelo usuário via scanf
 
 Validação de sobreposição ou saída do tabuleiro

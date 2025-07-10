@@ -1,6 +1,4 @@
 # batalhanaval
-Posicionamento de Navios – Nível Novato
-Posicionamento de Navios – Nível Novato
 Este repositório demonstra como posicionar dois navios em um tabuleiro de Batalha Naval usando matrizes 2D em C. Um navio será colocado horizontalmente e outro verticalmente. Ao final, exibimos no console:
 
 As coordenadas de cada parte dos navios
